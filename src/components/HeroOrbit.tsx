@@ -8,13 +8,13 @@ export const HeroOrbit = ({
   shouldOrbit = false,
   orbitDuration,
   shouldspin = false,
-  spinDuration,
+  spinduration,
 }: PropsWithChildren<{
   size: number;
   rotation: number;
   orbitDuration?: string;
   shouldspin?: boolean;
-  spinDuration?: string;
+  spinduration?: string;
   shouldOrbit?: boolean;
 }>) => {
   return (
@@ -36,7 +36,7 @@ export const HeroOrbit = ({
           <div
             className={twMerge(shouldspin === true && "animate-spin")}
             style={{
-              animationDuration: spinDuration,
+              animationDuration: spinduration,
             }}
           >
             <div

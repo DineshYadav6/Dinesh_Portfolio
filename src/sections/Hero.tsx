@@ -25,14 +25,14 @@ export const HeroSection = () => {
           <SparkleIcon
             className="size-8 text-emerald-300/20"
             shouldspin
-            spinDuration="3s"
+            spinduration="3s"
           />
         </HeroOrbit>
         <HeroOrbit size={440} rotation={79} shouldOrbit orbitDuration="32s">
           <SparkleIcon
             className="size-5 text-emerald-300/20"
             shouldspin
-            spinDuration="3s"
+            spinduration="3s"
           />
         </HeroOrbit>
         <HeroOrbit size={520} rotation={-41} shouldOrbit orbitDuration="34s">
@@ -42,21 +42,21 @@ export const HeroSection = () => {
           <SparkleIcon
             className="size-10 text-emerald-300/20"
             shouldspin
-            spinDuration="3s"
+            spinduration="3s"
           />
         </HeroOrbit>
         <HeroOrbit size={550} rotation={20} shouldOrbit orbitDuration="38s">
           <StarIcon
             className="size-12 text-emerald-300"
             shouldspin
-            spinDuration="6s"
+            spinduration="6s"
           />
         </HeroOrbit>
         <HeroOrbit size={590} rotation={98} shouldOrbit orbitDuration="40s">
           <StarIcon
             className="size-8 text-emerald-300"
             shouldspin
-            spinDuration="6s"
+            spinduration="6s"
           />
         </HeroOrbit>
         <HeroOrbit size={650} rotation={-5} shouldOrbit orbitDuration="42s">
@@ -66,7 +66,7 @@ export const HeroSection = () => {
           <SparkleIcon
             className="size-14 text-emerald-300/20"
             shouldspin
-            spinDuration="3s"
+            spinduration="3s"
           />
         </HeroOrbit>
         <HeroOrbit size={720} rotation={85} shouldOrbit orbitDuration="46s">
@@ -78,7 +78,7 @@ export const HeroSection = () => {
           shouldOrbit
           orbitDuration="48s"
           shouldspin
-          spinDuration="6s"
+          spinduration="6s"
         >
           <StarIcon className="size-28 text-emerald-300" />
         </HeroOrbit>

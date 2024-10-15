@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+"use client";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import grainImage from "@/assets/images/grain.jpg";
 
@@ -22,9 +23,27 @@ export const ContactSection = () => {
                 Ready to bring your next project to life? Let's connect and
                 discuss how I can help you achieve your goals.
               </p>
+              <p className="text-sm mt-2 md:text-base">
+                Connect with me on{" "}
+                <a
+                  href="https://www.linkedin.com/in/pasula-nithin/"
+                  className="text-blue-500"
+                >
+                  LinkedIn
+                </a>
+                .
+              </p>
             </div>
             <div>
-              <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900">
+              <button
+                onClick={() =>
+                  window.open(
+                    "https://mail.google.com/mail/?view=cm&fs=1&to=nithin.pasula@gmail.com",
+                    "_blank"
+                  )
+                }
+                className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900"
+              >
                 <span className="font-semibold">Contact Me</span>
                 <ArrowUpRightIcon className="size-4" />
               </button>
