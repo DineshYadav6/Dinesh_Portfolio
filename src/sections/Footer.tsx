@@ -6,8 +6,8 @@ const footerLinks = [
     href: "https://x.com/NithinPasula03",
   },
   {
-    title: "Instagram",
-    href: "",
+    title: "GitHub",
+    href: "https://github.com/NithinPasula",
   },
   {
     title: "Gmail",
