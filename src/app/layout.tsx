@@ -11,8 +11,9 @@ const calistoga = Calistoga({
 });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "Created with the help of Frontend Tribe",
+  title: "Nithin's Portfolio",
+  description:
+    "This portfolio website is a fully responsive, SEO-friendly showcase built using ReactJS, NextJS, and Tailwind CSS. It leverages TypeScript for type safety and includes various modern frontend libraries like shadCN for UI components and framer-motion for dynamic animations and transitions. The website is optimized for performance and accessibility across all devices, providing a smooth, responsive user experience. With NextJS, the site is highly optimized for SEO, ensuring fast load times and search engine visibility.",
 };
 
 export default function RootLayout({
