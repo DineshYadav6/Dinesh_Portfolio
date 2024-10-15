@@ -1,6 +1,7 @@
 import { addScaleCorrector } from "framer-motion";
 import { transform } from "next/dist/build/swc";
 import type { Config } from "tailwindcss";
+import { PluginAPI } from "tailwindcss/types/config";
 
 const config: Config = {
   content: [
@@ -58,6 +59,13 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addBase }: PluginAPI) {
+      // Add type here
+      addBase({
+        html: { scrollBehavior: "smooth" },
+      });
+    },
+  ],
 };
 export default config;
