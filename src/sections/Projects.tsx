@@ -8,40 +8,40 @@ import grainImage from "@/assets/images/grain.jpg";
 import { Card } from "@/components/Card";
 
 const portfolioProjects = [
+  // {
+  //   company: "SELF_LEARNING",
+  //   year: "2024",
+  //   title: "Dark Saas Landing Page",
+  //   results: [
+  //     { title: "Enhanced user experience by 40%" },
+  //     { title: "Improved site speed by 50%" },
+  //     { title: "Increased mobile traffic by 35%" },
+  //   ],
+  //   link: "https://darksaaslanding.vercel.app/",
+  //   image: darkSaasLandingPage,
+  // },
   {
     company: "SELF_LEARNING",
     year: "2024",
-    title: "Dark Saas Landing Page",
+    title: "Patient Management System",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Built a full-stack system for patient registration, appointments and payments" },
+      { title: "Handled 500+ records with Java, Jsp and MySQL" },
+      { title: "Suggested secure login, DB tuning, and third-party API Integration" },
     ],
-    link: "https://darksaaslanding.vercel.app/",
-    image: darkSaasLandingPage,
-  },
-  {
-    company: "SELF_LEARNING",
-    year: "2024",
-    title: "Light Saas Landing Page",
-    results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
-    ],
-    link: "https://light-saas-landing-page-livid.vercel.app/",
+    link: "#",
     image: lightSaasLandingPage,
   },
   {
     company: "SELF-LEARNING",
     year: "2024",
-    title: "AI Startup Landing Page",
+    title: "Credit Card Fraud Detection System",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Built an ML model using Random Forest to detect fraudlent transactions" },
+      { title: "Improved prediction accuracy through feature engineering and tuning " },
+      { title: "Applied Data analysis and model evaluation for optimal results." },
     ],
-    link: "https://ai-startup-landing-page-taupe.vercel.app/",
+    link: "#",
     image: aiStartupLandingPage,
   },
 ];

@@ -1,15 +1,17 @@
 "use client";
 import { Card } from "@/components/Card";
 import { SectionHeader } from "@/components/SectionHeader";
-import bookImage from "@/assets/images/book-cover.png";
+import bookImage from "@/assets/images/DSA Cover.jpg";
 import Image from "next/image";
 import JavaScriptIcon from "@/assets/icons/square-js.svg";
 import HTMLIcon from "@/assets/icons/html5.svg";
 import CSSIcon from "@/assets/icons/css3.svg";
-import ReactIcon from "@/assets/icons/react.svg";
-import ChromeIcon from "@/assets/icons/chrome.svg";
+import JavaIcon from "@/assets/icons/java.svg";
+import SpringIcon from "@/assets/icons/springboot.svg";
 import GithubIcon from "@/assets/icons/github.svg";
-import AWSIcon from "@/assets/icons/aws-svgrepo-com (1).svg";
+import SQLIcon from "@/assets/icons/mysql.svg";
+import HibernateIcon from "@/assets/icons/hibernate.svg";
+import EclipseIcon from "@/assets/icons/eclipse.svg";
 import mapImage from "@/assets/images/map.png";
 import smileMemoji from "@/assets/images/memoji-smile.png";
 import { CardHeader } from "@/components/CardHeader";
@@ -31,42 +33,51 @@ const toolboxItems = [
     iconType: CSSIcon,
   },
   {
-    title: "ReactJS",
-    iconType: ReactIcon,
+    title: "Java",
+    iconType: JavaIcon,
   },
   {
     title: "GitHub",
     iconType: GithubIcon,
   },
   {
-    title: "Chrome",
-    iconType: ChromeIcon,
+    title: "MySQL",
+    iconType: SQLIcon,
   },
   {
-    title: "AWS",
-    iconType: AWSIcon,
+    title: "Spring Boot",
+    iconType: SpringIcon,
   },
+  {
+   title: "Hibernate",
+    iconType: HibernateIcon, 
+  },
+  {
+   title: "Eclipse",
+    iconType: EclipseIcon, 
+  },
+
 ];
 
 const hobbies = [
-  {
-    title: "Painting",
-    emoji: "🎨",
-    left: "5%",
-    top: "5%",
-  },
-  {
-    title: "Photography",
-    emoji: "📸",
-    left: "50%",
-    top: "5%",
-  },
-  {
-    title: "Hiking",
-    emoji: "🥾",
-    left: "35%",
-    top: "40%",
-  },
+  // {
+  //   title: "Painting",
+  //   emoji: "🎨",
+  //   left: "5%",
+  //   top: "5%",
+  // },
+  // {
+  //   title: "Photography",
+  //   emoji: "📸",
+  //   left: "50%",
+  //   top: "5%",
+  // },
+  // {
+  //   title: "Hiking",
+  //   emoji: "🥾",
+  //   left: "35%",
+  //   top: "40%",
+  // },
   {
     title: "Gaming",
     emoji: "🎮",
@@ -86,8 +97,8 @@ const hobbies = [
     top: "65%",
   },
   {
-    title: "Reading",
-    emoji: "📚",
+    title: "Sports",
+    emoji: "🏏",
     left: "45%",
     top: "70%",
   },

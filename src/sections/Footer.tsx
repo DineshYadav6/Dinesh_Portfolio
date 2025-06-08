@@ -2,20 +2,20 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 
 const footerLinks = [
   {
-    title: "Twitter",
-    href: "https://x.com/NithinPasula03",
+    title: "LinkedIn",
+    href: "https://www.linkedin.com/in/dineshkumar6901/",
   },
   {
     title: "GitHub",
-    href: "https://github.com/NithinPasula",
+    href: "https://github.com/DineshYadav6",
   },
   {
     title: "Gmail",
-    href: "https://mail.google.com/mail/?view=cm&fs=1&to=nithin.pasula@gmail.com",
+    href: "https://mail.google.com/mail/?view=cm&fs=1&to=dineshyadav.mailbox@gmail.com",
   },
   {
-    title: "LinkedIn",
-    href: "https://www.linkedin.com/in/pasula-nithin/",
+    title: "Instagram",
+    href: "https://www.instagram.com/dinesh__yadav_433/",
   },
 ];
 

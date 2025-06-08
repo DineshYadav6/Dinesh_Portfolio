@@ -10,27 +10,27 @@ import { Fragment } from "react";
 
 const testimonials = [
   {
-    name: "Alex Turner",
-    position: "Marketing Manager @ TechStartups",
-    text: "Nithin was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
+    name: "Alex Turner ",
+    position: "Teammate @ TechStartups",
+    text: "Working with Dinesh was a great experience. He managed the backend efficiently and always kept things running smoothly. His support and communication made team collaboration easy.",
     avatar: memojiAvatar1,
   },
   {
     name: "Olivia Green",
-    position: "Head of Design @ GreenLeaf",
-    text: "Working with Nithin was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has exceeded our expectations.",
+    position: "Client/User @ GreenLeaf",
+    text: "Dinesh picks up new concepts quickly and applies them effectively. His code is clean, and he consistently delivers on time. He’s someone you can count on in a project.",
     avatar: memojiAvatar2,
   },
   {
     name: "Daniel White",
     position: "CEO @ InnovateCo",
-    text: "Nithin's ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
+    text: "Dinesh developed an app for us that was exactly what we needed — fast, user-friendly, and reliable. He was responsive to feedback and made quick improvements when needed.",
     avatar: memojiAvatar3,
   },
   {
     name: "Emily Carter",
-    position: "Product Manager @ GlobalTech",
-    text: "Nithin is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.",
+    position: "Mento/ Peer Reviewer",
+    text: "I’ve reviewed Dinesh’s code on multiple occasions. It’s always well-structured and easy to follow. He’s focused on writing scalable solutions and is a dependable teammate.",
     avatar: memojiAvatar4,
   },
   {

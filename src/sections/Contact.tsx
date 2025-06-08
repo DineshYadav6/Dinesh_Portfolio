@@ -26,7 +26,7 @@ export const ContactSection = () => {
               <p className="text-sm mt-2 md:text-base">
                 Connect with me on{" "}
                 <a
-                  href="https://www.linkedin.com/in/pasula-nithin/"
+                  href="https://www.linkedin.com/in/dineshkumar6901/"
                   className="text-blue-500"
                 >
                   LinkedIn
@@ -38,7 +38,7 @@ export const ContactSection = () => {
               <button
                 onClick={() =>
                   window.open(
-                    "https://mail.google.com/mail/?view=cm&fs=1&to=nithin.pasula@gmail.com",
+                    "https://mail.google.com/mail/?view=cm&fs=1&to=dineshyadav.mailbox@gmail.com",
                     "_blank"
                   )
                 }

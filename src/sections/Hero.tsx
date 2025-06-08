@@ -104,9 +104,8 @@ export const HeroSection = () => {
             Building Exceptional User Experiences
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
-            I <span className="text-white font-serif">Pasula Nithin</span>{" "}
-            specialize in transforming designs into functional, high-performing
-            web applications. Let's discuss your next project.
+            I'm <span className="text-white font-serif">Dinesh</span>{" "}
+            a software Engineer skilled in Java, Python, and web technologies.I build scalable apps,solve complex problems with clean code, and stay sharp through continous learning.
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
